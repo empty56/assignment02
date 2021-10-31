@@ -1,0 +1,110 @@
+p {
+    font-size: 20px;
+}
+div p {
+    color: green;
+}
+div h2 {
+    color: blue;
+}
+p, h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+p, div h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#test {
+    color:yellowgreen; 
+}
+#test p {
+    color:blueviolet; 
+}
+#test p, h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.www{
+    text-decoration: underline;
+}
+.www p{
+    color:brown;
+}
+#test i{
+    font-size: 35px;
+}
+.text.xxx {
+    font-family: cursive;
+}
+p.test.xxx {
+    text-shadow: #674556;
+}
+.test.www.xxx {
+    color:crimson;
+}
+p>a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p>i {
+    font-size: 27px;
+}
+ul li {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+b~i {
+    text-decoration:underline dotted teal;
+}
+#test b~i {
+    text-shadow: #072e55;
+}
+ul+p {
+    text-align: right;
+}
+#test p+h2 {
+    color: violet;
+}
+* {
+    margin-top: 10px;
+}
+p * i {
+    letter-spacing: 20px;
+}
+*[title] {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p[title] {
+    margin-left: 35px;
+}
+p[title="title"] {
+    color: rgb(105, 25, 49);
+}
+a[href^="#"] {
+    text-decoration: underline dashed rgb(15, 178, 228);
+}
+a[href$=".html"] {
+    font-family: Arial, Helvetica, sans-serif bold;
+}
+p[title*="hello"] {
+    font-family:'Times New Roman', Times, serif cursive;
+    color:#0ad40a
+}
+p[class^="top-"] {
+    color:#bd9b3d;
+}
+
+ol {
+    margin-top: 50px;
+}
+ol li {
+    border: 3px solid rgb(104, 31, 85);
+}
+ol li:hover {
+    background-color: green;
+}
+.z31 li:hover+li, .z32 li:hover+li+li {
+    background-color: red;
+}
+.z33 li:hover~li {
+    background-color: red;
+}
+.z33 li:last-child {
+    background: none !important;
+}
